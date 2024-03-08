@@ -1,26 +1,35 @@
 .body {
     display: flex;
-    margin: 0;
+    margin: 0px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    width: 1052px;
+    height: 105px;
     padding: 92px 24px;
+    margin: 0px;
 }
+    
 
-.header__links-list {
-    margin: 0;
-    padding-inline-start: 0px;
+.header_menu {
+    display: inline;
     width: 387px;
     height: 22px;
 }
 
-.header__logo {
-
 }
 
-.address {
-
+.header__links-list {
+    display: inline;
+    list-style-type: circle;
+    margin: 0;
+    
 }
+
+.header__link {
+    list-style: circle;
+}
+

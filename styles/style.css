@@ -57,14 +57,13 @@ a {
     font-style: initial;
     font-family: Raleway, Arial, sans-serif;
     font-size: 18px;
-    text-decoration: underline;
     margin-right: 35px;
     margin-left: 140px;
     margin-top: 5px;
 }
 
-p {
-    margin: 0;   
+.header__link {
+    text-decoration: underline;
 }
 
 .cover {
@@ -167,6 +166,10 @@ p {
     z-index: 1;
 }
 
+.button-link {
+    text-decoration: none;
+}
+
 .lots {
     width: 1052px;
     height: 692px;
@@ -196,6 +199,10 @@ p {
     column-gap: 25px;
     margin-top: 15px
 
+}
+
+.card-link {
+    text-decoration: none;
 }
 
 .card {
@@ -233,6 +240,7 @@ p {
     line-height: 24px;
     color: #FFFFFF;
     margin: 0px 40px 48px;
+    
 }
 
 .card_type_film {
@@ -262,10 +270,10 @@ p {
 .about {
     width: 1052px;
     height: 595px;
-    padding: 0px 24px 366px;
+    padding: 0px 24px 0px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 15px;
+    gap: 45px;
 }
 
 .about__logo {
@@ -286,10 +294,64 @@ p {
 
 .about__title {
    margin: 133px 402px 101px 0px; 
-   width: 291px;
+   width: 350px;
    height: 47px;
    font-family: Raleway, Arial, sans-serif;
    font-size: 40px;
    line-height: 46.96px;
    text-transform: uppercase;
+}
+
+.about__text {
+   width: 693px;
+   height: 314px;
+   display: flex; 
+   flex-direction: column;
+   gap: 26px;
+   font-family: Raleway, Arial, sans-serif;
+   font-size: 20px;
+   line-height: 24px;
+   word-spacing: 2px
+}
+
+.footer {
+    width: 1000px;
+    height: 97px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 185px;
+    padding: 178px 26px 91px;
+}
+
+.address_footer__address {
+    width: 240px;
+    height: 97px;
+    margin-top: 7px;
+    padding-left: 22px;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 18px;
+    font-style: initial;
+}
+
+.footer__menu-list {
+    width: 149px;
+    height: 64px;
+    padding-left: 0px;
+    list-style: none;
+    text-align: center;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.footer__social-list-item {
+    padding-left: 0px;
+    display: flex;
+    gap: 24px;
+
+}
+
+.footer__social-link {
+    width: 48px;
+    height: 48px;
+    list-style: none;
 }

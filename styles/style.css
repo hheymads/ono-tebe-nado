@@ -39,7 +39,6 @@ a {
     justify-content: flex-start; 
     width: 148px;
     height: 105px;
-  
 }
 
 .header__logo-image {
@@ -136,7 +135,6 @@ a {
     text-align: center;
     align-items: center;
     padding: 654px 383px 40px 82px;
-   
 }
 
 .cover__description-text {
@@ -198,7 +196,6 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 25px;
     margin-top: 15px
-
 }
 
 .card-link {
@@ -240,12 +237,10 @@ a {
     line-height: 24px;
     color: #FFFFFF;
     margin: 0px 40px 48px;
-    
 }
 
 .card_type_film {
     background-image: url(/images/card-lot-01.jpg);
-    
 }
 
 .card_type_book {
@@ -289,7 +284,6 @@ a {
 
 .about__column {
    justify-content: center;
-
 }
 
 .about__title {
@@ -347,7 +341,6 @@ a {
     padding-left: 0px;
     display: flex;
     gap: 24px;
-
 }
 
 .footer__social-link {

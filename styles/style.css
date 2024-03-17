@@ -34,7 +34,7 @@
 
 .header__logo {
     display: flex;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     margin-left: 45px;
     width: 148px;
     height: 105px;
@@ -89,6 +89,11 @@
     background-position: top center;
     position: absolute;
     z-index: 0;
+}
+
+.cover__description{
+    width: 1100px;
+    z-index: -1;
 }
 
 .cover__title {
@@ -207,7 +212,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-size: cover;
-    background-position: center;  
+    background-position: center;
 }
 
 .card__title {
@@ -285,7 +290,7 @@
 }
 
 .about__title {
-   margin: 133px 402px 101px 0px; 
+   margin: 133px 402px 101px 0px;
    width: 350px;
    height: 47px;
    font-family: Raleway, Arial, sans-serif;
@@ -297,7 +302,7 @@
 .about__text {
    width: 693px;
    height: 314px;
-   display: flex; 
+   display: flex;
    flex-direction: column;
    gap: 26px;
    font-family: Raleway, Arial, sans-serif;

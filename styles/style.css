@@ -2,7 +2,12 @@
     margin: 0;
 }
 
+main {
+    width: 1100px;
+}
+
 .header {
+    width: 1052px;
     display: flex;
     align-items: center;
     padding: 92px 24px;
@@ -91,11 +96,6 @@
     z-index: 0;
 }
 
-.cover__description{
-    width: 1100px;
-    z-index: -1;
-}
-
 .cover__title {
     display: flex;
     flex-direction: column;
@@ -134,13 +134,10 @@
 }
 
 .cover__description {
-    width: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    text-align: center;
-    align-items: center;
-    padding: 654px 383px 40px 82px;
+    padding-top: 665px;
+    padding-left: 82px;
+    padding-right: 0px;
 }
 
 .cover__description-text {
@@ -290,7 +287,7 @@
 }
 
 .about__title {
-   margin: 133px 402px 101px 0px;
+    padding: 133px 0px 101px 0px;
    width: 350px;
    height: 47px;
    font-family: Raleway, Arial, sans-serif;

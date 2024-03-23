@@ -22,8 +22,6 @@ main {
     display: flex;
     gap: 32px;
     padding: 0;
-    margin-top: 5px;
-    margin-left: 26.52px;
     font-family: Raleway, Arial, sans-serif;
     font-size: 18px;
     text-underline-offset: 5px;
@@ -60,7 +58,6 @@ main {
 
 .address {
     justify-self: right;
-    padding-right: 25px;
     width: 240px;
     font-style: inherit;
     text-underline-offset: 5px;
@@ -83,7 +80,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 5px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -107,7 +103,6 @@ main {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    width: 1000px;
     min-height: 100%;
     padding: 165px 50px 135px;
     font-family: Raleway, Arial, sans-serif;
@@ -188,7 +183,7 @@ main {
 }
 
 .lots {
-    width: 1052px;
+    width: 100%;
     padding: 179px 24px 146px;
 }
 
@@ -265,7 +260,7 @@ main {
 
 .lots__look-more-link {
     display: block;
-    margin: 30px 0 0 40px;
+    margin: 34px 0 0 44px;
     font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -276,11 +271,11 @@ main {
 }
 
 .about {
-    width: 1052px;
+    width: 100%;
     padding: 0px 24px 0px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 12px;
+    grid-template-columns: min-content 2fr;
+    gap: 50px;
 }
 
 .about__logo {
@@ -290,8 +285,12 @@ main {
     background-color: #000;
     width: 240px;
     height: 240px;
-    margin: 35px 25px 320px 47px;
+    margin: 39px 25px 320px 47px;
     border-radius: 50%;
+}
+
+.about__logo-image {
+    width: 148px;
 }
 
 .about__column {
@@ -299,7 +298,7 @@ main {
 }
 
 .about__title {
-   padding: 133px 0px 101px 0px;
+   padding: 137px 0px 101px 0px;
    width: 350px;
    height: 47px;
    font-family: Raleway, Arial, sans-serif;
@@ -309,7 +308,7 @@ main {
 }
 
 .about__text {
-   max-width: 100%;
+   padding-top: 48px;
    display: flex;
    flex-direction: column;
    gap: 26px;
@@ -324,21 +323,19 @@ main {
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 151px;
-    padding: 178px 26px 91px;
+    column-gap: 180px;
+    padding: 178px 0px 91px;
 }
 
 .footer__menu-list {
-    padding-left: 0px;
     list-style: none;
     text-align: center;
     font-family: Raleway, Arial, sans-serif;
     font-size: 18px;
-    line-height: 1.26;
+    line-height: 1.10;
 }
 
 .footer__social-list-item {
-    padding-left: 40px;
     display: flex;
     gap: 50px;
 }
